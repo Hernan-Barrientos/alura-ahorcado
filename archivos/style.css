@@ -1,0 +1,119 @@
+body {
+    z-index: 0;
+    background-color:#d1d5e7;
+    height: 100%;
+}
+
+.addWord{position: absolute;}
+
+.logo {
+    z-index: 10;
+    position: absolute;
+    margin: 25px 10px 10px 10px;
+}
+
+.mainContainer {
+    z-index: 3;
+    position:absolute;
+    width: 1200px;
+    height: 800px;
+background-color:#F3F5FC;
+}
+
+.startGame{
+margin-top: 400px;
+margin-left: 45%;
+display: block;
+
+}
+
+.nuevapalabra {
+    position: absolute;
+    margin-top: 20px;}
+
+    .nuevapalabra2 {
+        position: absolute;
+        margin-top:430px;}
+
+.colgado{
+    position: absolute;
+    margin-left: 35%;
+}
+
+.lienzo{
+    position: absolute;
+    margin-left: 235px;
+    margin-top: 50px;
+}
+.cajitaLetras{
+    z-index: 11;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(220, 224, 235);
+    display: inline-block;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid darkblue;
+    font-size: 24px;
+    text-align: center;
+    
+}
+::selection{color:transparent;}
+
+.cajaDeCajitas {
+   
+    position: absolute;
+    display: block;
+    margin-left: 45%;
+    margin-top: 450px;
+}
+
+.divGanadorClass{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background-color:#dfe1e6;
+    margin-top: 500px;
+    margin-left: 530px;
+    text-align: center;
+    font-size: 30px;
+    color: green;
+}
+
+.agregar{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 530px;
+}
+
+.botonAgregar{
+    position: absolute;
+    margin-top: 385px;
+    margin-left: 585px;
+}
+
+.botonBack{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 580px;
+}
+
+.palabraAdd{
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 500px;
+    font-size: 2em;
+    color:rgb(5, 206, 145);
+    display:inline-block;
+    opacity: 0%;
+    background-color: #E8F0FE;
+}
+
+.mostrarEquivocadas{
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 500px;
+    color:rgb(206, 62, 5);
+    background-color: #E8F0FE;
+}

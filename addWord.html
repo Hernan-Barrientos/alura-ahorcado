@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./archivos/style.css">
+</head>
+<body>
+
+  <header><img class="logo" src="./archivos/logo.png"></header>
+  <main id="mainContainer" class="mainContainer mainContainer">
+    <div class="palabraAdd" id="palabraAdd">palabra agregada</div>
+    <form>
+    <input id="inputAgregar" class="agregar addword" type="text" formmethod="get" name="addWord">
+    <button type="button" id="addWord" class="addWord startGame" onclick="agregarPalabra()" name="addWord">agregar</button>
+    </form>
+    <button type="button" id="addWord" class="startGame nuevapalabra2" onclick="newGame()">jugar</button>
+  </main>
+
+  <script src="./archivos/codigo.js"></script>
+<script src="./archivos/addWord.js"></script>
+</body>
+</html>

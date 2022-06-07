@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+</head>
+<body>
+	<section id="dibu" class="dibu"></section>
+	<script>
+		let lienzo = document.createElement("canvas");
+		lienzo.width="600";
+		lienzo.height="400";
+		document.getElementById("dibu").prepend(lienzo);
+		var pantalla = document.querySelector("canvas");
+		var pincel = lienzo.getContext("2d");
+
+		
+	
+			pincel.fillStyle = "blue";
+			pincel.fillRect(300,0,160,10);
+
+			pincel.fillStyle = "blue";
+			pincel.fillRect(450,10,10,40);
+			
+			pincel.fillStyle = "blue";
+			pincel.fillRect(300,0,10,390);
+
+			pincel.fillStyle = "blue";
+			pincel.fillRect(200,390,350,10);
+
+			/*pincel.fillStyle = "yellow";
+			pincel.beginPath();
+			pincel.moveTo(300,200);
+			pincel.lineTo(200,400);
+			pincel.lineTo(400,400);
+			pincel.fill();
+		
+			pincel.fillStyle = "red";
+			pincel.beginPath();
+			pincel.arc(300,200,50,0,2*3.14);
+			pincel.fill();*/
+		
+		</script>
+</body>
+</html>
+
